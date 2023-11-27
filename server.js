@@ -58,5 +58,5 @@ app.get('/obtener', (req, res) => {
 })
 
 app.listen(port, ()=>{
-    console.log('Escuchando en el puerto ${port}')
+    console.log('Escuchando en el puerto '+ port)
 });

@@ -26,8 +26,7 @@
 
         <div class="card">
             <div class="card-body">
-                <h3 class="card-title">Contact Book</h3>
-                <p class="card-text">Check an opction:</p>
+                <h3 class="card-title">Cuotas de Colegio</h3>
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar">
                     <div class="btn-group" role="group" aria-label="Button Group">
                         <a class="btn btn-success mb-2" href="http://localhost:3000/nuevoAlumn">Crear Alumno</a>
@@ -41,9 +40,7 @@
             <script scr="" async defer></script>
             <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
             <script>
-                // Realizar una solicitud AJAX para obtener los datos de la ruta /obtener
                 $.get("http://localhost:3000/obtener", function (data) {
-                    // Insertar la respuesta (la tabla de alumnos) en el div con ID "divDestino"
                     $("#divDestino").html(data);
                 });
             </script>
